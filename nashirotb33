@@ -1,0 +1,97 @@
+local Ophyn = loadstring(game:HttpGet('https://ophyn.space/interface'))()
+
+Ophyn.new({
+    -- Window
+    Title = "Ophyn",
+    Description = "Key System",
+    Logo = "rbxassetid://111673746737789",
+    Theme = "Plant-Dark",
+    Folder = "Ophyn-KSY",
+
+    -- Buttons
+    getkey = true,
+
+    -- Intro
+    Intro = "true",
+    startintro_size = 80,
+    squareintro_time = 1.2,
+
+    -- Appearance
+    Changelogocolor = true,
+    Changeiconscolor = true,
+    ChangeTheme = true,
+    NotifStyle = "1",
+    TabsStyle = "1",
+
+    -- Links
+    discord_link = "discord.gg/https://discord.gg/67bZy2NftT",
+
+    -- Cards
+    Discord = "true",
+    Website = "false",
+
+    -- Games (PlaceId = true)
+    SupportedGames = {
+        [1234567890] = true,
+    },
+
+    -- Key System (see the Services page for API examples)
+    KeySystem = {
+        Key = {"nashiro23",},
+        SaveKey = false,
+    },
+
+    -- Script (runs after the key is validated)
+    Callback = function(key)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/mtndew08838-cell/nexar.xyzz/refs/heads/main/nashirobih"))()
+    end,
+})
+local Ophyn = loadstring(game:HttpGet('https://ophyn.space/interface'))()
+
+Ophyn.new({
+    -- Window
+    Title = "Nashiro",
+    Description = "Key System",
+    Logo = "rbxassetid://136588640130892",
+    Theme = "Plant-Dark",
+    Folder = "Ophyn-KSY",
+
+    -- Buttons
+    getkey = true,
+
+    -- Intro
+    Intro = "true",
+    startintro_size = 80,
+    squareintro_time = 1.2,
+
+    -- Appearance
+    Changelogocolor = true,
+    Changeiconscolor = true,
+    ChangeTheme = true,
+    NotifStyle = "1",
+    TabsStyle = "1",
+
+    -- Links
+    discord_link = "https://discord.gg/DVr7nE5RH",
+
+    -- Cards
+    Discord = "true",
+    Website = "false",
+
+    -- Games (PlaceId = true)
+    SupportedGames = {
+        [1234567890] = true,
+    },
+
+    -- Key System (see the Services page for API examples)
+    KeySystem = {
+        Key = {"nashiro23",},
+        URL = "https://discord.gg/67bZy2NftT",
+        SaveKey = false,
+    },
+
+    -- Script (runs after the key is validated)
+    Callback = function(key)
+        -- your script here
+    end,
+})vfv
